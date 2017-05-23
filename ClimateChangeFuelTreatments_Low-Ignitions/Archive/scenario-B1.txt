@@ -1,0 +1,35 @@
+>> LTB - B1 climate scenario
+
+LandisData Scenario
+
+Duration 100
+
+Species 		"J:/Loudermilk/SNPLMA/LANDIS_modeling/LTB_Century/Trial9/species.txt"
+
+Ecoregions 		"J:/Loudermilk/SNPLMA/LANDIS_modeling/LTB_Century/Trial9/ecoregions5.txt" << using 5 ecoregions
+EcoregionsMap 		"J:/Loudermilk/SNPLMA/LANDIS_modeling/LTB_Century/Trial9/ecoregions5.img"
+
+CellLength 100 << meters, so cell area = 1 ha
+
+>> Succession Extension Initialization File
+>> -------------------- -------------------
+
+"Century Succession"	"J:/Loudermilk/SNPLMA/LANDIS_modeling/LTB_Century/Trial9/century-succession-B1.txt"
+
+
+>> Disturbance Extensions Initialization File
+>> ---------------------- -------------------
+
+"Dynamic Leaf Biomass Fuels"	"J:/Loudermilk/SNPLMA/LANDIS_modeling/LTB_Century/Trial9/DynamicFuels.txt"
+"Dynamic Fire System"	"J:/Loudermilk/SNPLMA/LANDIS_modeling/LTB_Century/Trial9/DynamicFire-B1.txt"
+
+
+DisturbancesRandomOrder no
+
+>> Output Extensions Initialization File
+>> ----------------- -------------------
+   "Output Cohort Statistics"    	"J:/Loudermilk/SNPLMA/LANDIS_modeling/LTB_Century/Trial9/cohort-stats.output.txt" 	<< any succession ext.
+   "Output Leaf Biomass"		"J:/Loudermilk/SNPLMA/LANDIS_modeling/LTB_Century/Trial9/output-leaf-biomass.txt"  << output biomass
+
+
+>>RandomNumberSeed 4,357

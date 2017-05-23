@@ -1,0 +1,15 @@
+LandisData "Climate Config"				
+		
+>>-----Daily_Mauer
+		
+ClimateTimeSeries		Daily_SequencedYears
+ClimateFile			J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/LTB_GriddedObservedComplete.csv
+ClimateFileFormat		Daily_Temp-C_Precip-mmDay
+
+
+SpinUpClimateTimeSeries		Daily_SequencedYears <<MonthlyRandom>
+SpinUpClimateFile		J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/LTB_GriddedObservedComplete.csv
+SpinUpClimateFileFormat		Daily_Temp-C_Precip-mmDay
+	
+
+

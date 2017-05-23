@@ -1,0 +1,11 @@
+LandisData  "Output Biomass-by-Age"
+
+Timestep   10
+
+MapNames   spp-bio-age/{species}-{ageclass}-{timestep}.img
+
+Species		PinuJeff ageclass1(50-100) ageclass2(>100)
+		PinuLamb ageclass1(50-100) ageclass2(>100)
+		AbieConc ageclass1(50-100) ageclass2(>100)
+		PopuTrem ageclass1(50-100) ageclass2(>100)	
+

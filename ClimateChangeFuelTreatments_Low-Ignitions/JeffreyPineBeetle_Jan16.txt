@@ -1,0 +1,52 @@
+BDAAgentName		JeffreyPineBeetle
+BDPCalibrator		1
+SRDMode			mean
+
+>>-------- Regional Outbreak Inputs -------------
+TimeSinceLastEpidemic	20	<<years
+TemporalType 		pulse	<<pulse, 
+				<<variablepulse,
+				<<or continuous
+RandomFunction		RFuniform<<RFnormal or 
+				<<RFuniform
+RandomParameter1	15
+RandomParameter2	15
+MinROS			0
+MaxROS			3
+
+>>-------- Dispersal Inputs ----------------------
+Dispersal		yes	<<yes or no
+DispersalRate		600	<<meters/year This came from Joel Egen conversation
+EpidemicThresh		0.2  
+InitialEpicenterNum	65  <<This value came from ADS maps year ==1993
+OutbreakEpicenterCoeff	0.01 << # of epicenters w/in outbreak zone.increasing this param decreases # of new epicenters
+SeedEpicenter		yes	<<yes or no
+SeedEpicenterCoeff	0.5  <<# of epicenters outside outbreak zone. #of epicenters will decrease with increasing value
+DispersalTemplate	MaxRadius	<<MaxRadius, 4N,
+				<<8N, 12N, or 24N
+
+>>-------- Neighborhood Resource Inputs -----------
+NeighborFlag	no	<<yes or no  <<need to test this on the landscape
+NeighborSpeedUp	none	<<none, 2x, 3x, 
+			<<or 4x
+NeighborRadius	10000	<<meters
+NeighborShape	uniform	<<uniform, linear, 
+			<<or gaussian
+NeighborWeight	20
+
+>>EcoregionModifiers
+>>Ecoregion	Modifier
+>>eco1		0.16
+>>eco2		-0.16
+
+DisturbanceModifiers
+>>Type	Duration	Value
+Fire	1		1.0   <<Bradley and Tueller 2001
+
+BDASpeciesParameters
+>>                                        Susceptibility  
+>>Species  MinorHost  2ndHost  MajorHost  Class3   Class2   Class1	CFS
+>>Name     Age        Age      Age        Age      Age      Age		Conifer
+>> -----------------------------------------------------------------------------
+PinuJeff	0	      0 	   15	       0	   0	    15		yes
+

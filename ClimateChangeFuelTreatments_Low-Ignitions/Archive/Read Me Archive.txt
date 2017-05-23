@@ -1,0 +1,3 @@
+THese are all input files (archived), where we initially have higher ignitions values (No. of fires) in dynamic fire table.  These were changed summer 2012, as we realized this was actually too much fire (based on current fire regime).
+
+All files will "lower ign" was the currently used ignitions values, and should be used unless using the climate change ignitions values from Jian Yang = "CC-Ignitions" folders.

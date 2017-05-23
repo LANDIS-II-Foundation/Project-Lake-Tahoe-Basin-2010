@@ -1,0 +1,3 @@
+Runs for climate change (without increased ignitions) for A2 (and potentially B1 climate).
+
+Decided to only include 2 fuel treatments scenarios (15 and 30 year rotation periods), but could easily add more scenarios from original "FuelTreatmentsOnly" folder.
