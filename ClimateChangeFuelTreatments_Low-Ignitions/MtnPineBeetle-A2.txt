@@ -69,8 +69,10 @@ DisturbanceModifiers
 >>Wind	20		0.33
 Fire	10		1.0 <<SChwilk 2006
 
-BDASpeciesParameters <<need to find ages. CFS Synthesis, 10cm cutoff for unaffected trees, mortality increase with DBH
->>                     Cole and Amman has susceptibility classes for lodgepole forests. See BeetleHostSpecifity.txt for spp preference refs 
+BDASpeciesParameters 
+>> CFS Synthesis, 10cm cutoff for unaffected trees, mortality increase with DBH
+>> Cole and Amman susceptibility classes for lodgepole forests. See BeetleHostSpecifity.txt for spp preference refs.
+
 >>                                        Susceptibility  
 >>Species  MinorHost  2ndHost  MajorHost  Class3   Class2   Class1	CFS
 >>Name     Age        Age      Age        Age      Age      Age		Conifer
