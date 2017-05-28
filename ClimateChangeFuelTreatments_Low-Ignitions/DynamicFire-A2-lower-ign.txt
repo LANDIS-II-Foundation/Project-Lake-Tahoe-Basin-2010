@@ -18,14 +18,14 @@ BuildUpIndex	yes	<< yes or no; Y or N
 0	Other	0	0	0	0	0	0	0	0	0	0	0	0	0	0
 
 
-InitialFireEcoregionsMap  "J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/fire_new.img"
+InitialFireEcoregionsMap  "fire_new.img"
 
 DynamicEcoregionTable << not using for LTB
 >>Year	FileName
 
 
-GroundSlopeFile  	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/slope.img"
-UphillSlopeAzimuthMap  	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/upslope.img"
+GroundSlopeFile  	"slope.img"
+UphillSlopeAzimuthMap  	"upslope.img"
 
 SeasonTable
 >> Season	Leaf  	Season	Percent	DayLength
@@ -35,28 +35,28 @@ Spring		LeafOff	0.00	51	1.0
 Summer 		LeafOn  1.00	100	1.0
 Fall   		LeafOff 0.00	100	1.0
 
-InitialWeatherDatabase  "J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2010-2014.csv"
+InitialWeatherDatabase  "A2-climate-change-fire/FWI_LTB_inputA2_2010-2014.csv"
 
 DynamicWeatherTable
 >>Year    FileName
-1	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2010-2014.csv"
-5	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2015-2019.csv"
-10	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2020-2024.csv"
-15	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2025-2029.csv"
-20	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2030-2034.csv"
-25	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2035-2039.csv"
-30	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2040-2044.csv"
-35	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2045-2049.csv"
-40	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2050-2054.csv"
-45	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2055-2059.csv"
-50	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2060-2064.csv"
-55	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2065-2069.csv"
-60	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2070-2074.csv"
-65	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2075-2079.csv"
-70	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2080-2084.csv"
-75	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2085-2089.csv"
-80	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2090-2094.csv"
-85	"J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/A2-climate-change-fire/FWI_LTB_inputA2_2095-2100.csv"
+1	"A2-climate-change-fire/FWI_LTB_inputA2_2010-2014.csv"
+5	"A2-climate-change-fire/FWI_LTB_inputA2_2015-2019.csv"
+10	"A2-climate-change-fire/FWI_LTB_inputA2_2020-2024.csv"
+15	"A2-climate-change-fire/FWI_LTB_inputA2_2025-2029.csv"
+20	"A2-climate-change-fire/FWI_LTB_inputA2_2030-2034.csv"
+25	"A2-climate-change-fire/FWI_LTB_inputA2_2035-2039.csv"
+30	"A2-climate-change-fire/FWI_LTB_inputA2_2040-2044.csv"
+35	"A2-climate-change-fire/FWI_LTB_inputA2_2045-2049.csv"
+40	"A2-climate-change-fire/FWI_LTB_inputA2_2050-2054.csv"
+45	"A2-climate-change-fire/FWI_LTB_inputA2_2055-2059.csv"
+50	"A2-climate-change-fire/FWI_LTB_inputA2_2060-2064.csv"
+55	"A2-climate-change-fire/FWI_LTB_inputA2_2065-2069.csv"
+60	"A2-climate-change-fire/FWI_LTB_inputA2_2070-2074.csv"
+65	"A2-climate-change-fire/FWI_LTB_inputA2_2075-2079.csv"
+70	"A2-climate-change-fire/FWI_LTB_inputA2_2080-2084.csv"
+75	"A2-climate-change-fire/FWI_LTB_inputA2_2085-2089.csv"
+80	"A2-climate-change-fire/FWI_LTB_inputA2_2090-2094.csv"
+85	"A2-climate-change-fire/FWI_LTB_inputA2_2095-2100.csv"
 	
 
 
