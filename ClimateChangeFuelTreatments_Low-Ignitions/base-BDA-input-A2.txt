@@ -12,6 +12,6 @@ NRDMapNames	bda/{agentName}-NRD-{timestep}.img
 
 LogFile		bda_log.csv
 
-BDAInputFiles	J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/JeffreyPineBeetle_Jan23-A2.txt	
-                J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/MtnPineBeetle-A2.txt	
-		J:/SNPLMA2/LTB_Modeling/LTB_WorkingCopy/ClimateChangeFuelTreatments_Low-Ignitions/FirEngraver_Dominant-A2.txt	
+BDAInputFiles	JeffreyPineBeetle_Jan23-A2.txt	
+                MtnPineBeetle-A2.txt	
+		FirEngraver_Dominant-A2.txt	
