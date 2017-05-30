@@ -1,0 +1,33 @@
+LandisData  "Output Cohort Statistics"
+
+
+Timestep   5
+
+SpeciesAgeStats
+
+MapNames   spp-age-stats/{species}-{statistic}-{timestep}.img
+
+>>MIN 	PinuJeff   		<< minimum age for each species
+MAX 	PinuJeff	PinuLamb	CaloDecu	AbieConc	AbieMagn	PinuCont	PinuMont	TsugMert	PinuAlbi	PopuTrem	NonnResp	NonnSeed	FixnResp	FixnSeed 		<< maximum age for each species
+>>MED	PinuJeff 		<< median age for each species
+>>SD	PinuJeff 		<< standard deviation age for each species
+AVG	PinuJeff	PinuLamb	CaloDecu	AbieConc	AbieMagn	PinuCont	PinuMont	TsugMert	PinuAlbi	PopuTrem	NonnResp	NonnSeed	FixnResp	FixnSeed 		<< average age for each species
+
+
+SiteAgeStats
+
+MapNames   spp-age-stats/AGE-{statistic}-{timestep}.img
+
+>>MIN 			<< minimum age across all species on site
+MAX				<< maximum age across all species on site
+>>MED				<< median age across all species on site
+AVG				<< average age across all species on site
+>>RICH   			<<count of cohorts
+>>EVEN   			<<evenness 
+
+
+SiteSpeciesStats
+
+MapNames   spp-age-stats/SPP-{statistic}-{timestep}.img
+
+RICH   			<<count of species
