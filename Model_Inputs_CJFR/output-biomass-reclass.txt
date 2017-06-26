@@ -1,0 +1,17 @@
+LandisData  "Output Biomass Reclass"
+
+Timestep   10
+
+
+ReclassMaps
+
+>> Map Name    Forest Type    Species
+>> --------    -------------  -------
+
+
+   reclass1 -> 	1MixedConifer	PinuJeff AbieConc PinuLamb CaloDecu 
+		2Subalpine	PinuCont AbieMagn PinuMont PinuAlbi
+
+
+
+MapFileNames   output/biomass-reclass/bio-{reclass-map-name}-{timestep}.img
